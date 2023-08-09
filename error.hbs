@@ -1,0 +1,11 @@
+{{!< default}}
+
+<section class="outer error-content">
+    <div class="inner">
+        <section class="error-message">
+            <h1 class="error-code">{{statusCode}}</h1>
+            <p class="error-description">{{message}}</p>
+            <a class="error-link" href="{{#if @custom.site_url}}{{@custom.site_url}}{{else}}{{@site.url}}{{/if}}">Home →</a>
+        </section>
+    </div>
+</section>

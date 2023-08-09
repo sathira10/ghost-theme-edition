@@ -111,6 +111,14 @@
                 "type": "boolean",
                 "default": true,
                 "group": "post"
+            },
+            "site_title": {
+                "type": "text",
+                "default": null
+            },
+            "site_url": {
+                "type": "text",
+                "default": null
             }
         }
     },
